@@ -1,0 +1,134 @@
+html,
+body {
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    height: 100%;
+}
+
+/*登录 start*/
+.sign-wrap {
+    background-image: url(../images/bg/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sign-dot {
+    background-image: url(../images/bg/dot.png);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    position: fixed;
+    z-index: 100;
+}
+
+.sign-over {
+    background-color: rgba(0, 0, 0, 0.95);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 200;
+    opacity: .75;
+}
+
+#login {
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    z-index: 300;
+    transform: translate(-50%, -50%);
+    background-color: rgba(38, 43, 54, 0.9);
+    padding: 20px;
+    position: absolute;
+}
+.panel-title-u {
+    font-weight: bold;
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    letter-spacing: .7px;
+}
+
+.btn-contact {
+    font-weight: bold;
+    color: #fff;
+    border-color: transparent;
+    transition:background-color .4s;
+    background-color: #3a5795;
+}
+.btn-contact:hover,
+.btn-contact:focus{
+    color: #fff;
+    border-color: transparent;
+    background-color: #334c83;
+}
+.btn-login {
+    font-weight: bold;
+    color: #fff;
+    border-color: transparent;
+    transition:background-color .4s;
+    background-color: #259dab;
+}
+.btn-login:hover,
+.btn-login:focus{
+    color: #fff;
+    border-color: transparent;
+    background-color: #1c7781;
+}
+
+
+.line {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: .7em;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+}
+.line:after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+    top: 8px;
+    right: 0;
+}
+.line:before {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+    top: 8px;
+    left: 0;
+}
+.help-block {
+    font-weight: bold;
+    font-size: .5em;
+}
+#login-form input[type=text],
+#login-form input[type=password]{
+    font-size: .7em;
+}
+.checkbox {
+    line-height: 1.7em;
+    font-size: .7em;
+    color: #777;
+}
+/*登录 end*/
+/*header start*/
+.logo-lg {
+    letter-spacing: 5px;
+}
+/*header end*/
