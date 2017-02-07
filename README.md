@@ -1,4 +1,4 @@
-# Yii2-Poetryclub(uncompleted)
+# Yii2-Poetryclub(uncompleted)![](https://avatars3.githubusercontent.com/u/22745316?v=3&s=96)
 
 ## 安装步骤(HOW TO USE)
 
